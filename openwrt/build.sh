@@ -7,6 +7,16 @@ export PINK_COLOR='\e[1;35m'
 export SHAN='\e[1;33;5m'
 export RES='\e[0m'
 
+export ENABLE_LTO=y
+export KERNEL_CLANG_LTO=y
+export ENABLE_BPF=y
+export ENABLE_LRNG=y
+export ENABLE_LOCAL_KMOD=y
+export ENABLE_DPDK=y
+export BUILD_FAST=y
+export LAN=192.168.102.1
+
+
 GROUP=
 group() {
     endgroup
