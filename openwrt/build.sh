@@ -37,7 +37,7 @@ fi
 
 # github actions - automatically retrieve `github raw` links
 if [ "$(whoami)" = "runner" ] && [ -n "$GITHUB_REPO" ]; then
-    export mirror=raw.githubusercontent.com/firefox-half/r4s_build_script/master
+    export mirror=raw.githubusercontent.com/$GITHUB_REPO/master
 fi
 
 # private gitea
